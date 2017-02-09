@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C03A03931E4D2B4200AE3DFE /* UIPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03A03921E4D2B4200AE3DFE /* UIPopoverViewController.swift */; };
 		C0B887331E45918B00D4A18F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B887321E45918B00D4A18F /* AppDelegate.swift */; };
 		C0B887351E45918B00D4A18F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B887341E45918B00D4A18F /* ViewController.swift */; };
 		C0B887381E45918B00D4A18F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B887361E45918B00D4A18F /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C03A03921E4D2B4200AE3DFE /* UIPopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPopoverViewController.swift; sourceTree = "<group>"; };
 		C0B8872F1E45918B00D4A18F /* PopoverViewLDVol2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopoverViewLDVol2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0B887321E45918B00D4A18F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0B887341E45918B00D4A18F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C03A038F1E4A8E5400AE3DFE /* Avartars */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Avartars;
+			sourceTree = "<group>";
+		};
 		C0B887261E45918B00D4A18F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +94,7 @@
 				C0B887391E45918B00D4A18F /* Assets.xcassets */,
 				C0B8873B1E45918B00D4A18F /* LaunchScreen.storyboard */,
 				C0B8873E1E45918B00D4A18F /* Info.plist */,
+				C03A03921E4D2B4200AE3DFE /* UIPopoverViewController.swift */,
 			);
 			path = PopoverViewLDVol2;
 			sourceTree = "<group>";
@@ -92,6 +102,7 @@
 		C0B887441E45927B00D4A18F /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				C03A038F1E4A8E5400AE3DFE /* Avartars */,
 				C0B887451E45934600D4A18F /* angry.png */,
 				C0B887461E45934600D4A18F /* avatar1.png */,
 				C0B887471E45934600D4A18F /* avatar2.png */,
@@ -193,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C03A03931E4D2B4200AE3DFE /* UIPopoverViewController.swift in Sources */,
 				C0B887351E45918B00D4A18F /* ViewController.swift in Sources */,
 				C0B887331E45918B00D4A18F /* AppDelegate.swift in Sources */,
 			);
@@ -356,6 +368,7 @@
 				C0B887431E45918B00D4A18F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
